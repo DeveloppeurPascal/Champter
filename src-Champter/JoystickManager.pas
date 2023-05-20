@@ -11,7 +11,7 @@ uses
   FMX.Types, System.SysUtils,
 {$ENDIF}
   System.Classes, System.UITypes, FMX.Forms, Gamolf.RTL.Joystick, FMX.Platform,
-  uConfig;
+  uPartieEnCours;
 
 const
   CButtonPressed = 65535;

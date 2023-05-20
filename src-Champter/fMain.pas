@@ -67,7 +67,7 @@ implementation
 {$R *.fmx}
 
 uses
-  System.ioutils, uDMTraductions, uPartieEnCours, uSprite;
+  System.ioutils, uDMTraductions, uPartieEnCours, uSprite, JoystickManager;
 
 { TfrmMain }
 
@@ -223,6 +223,7 @@ begin
   tthread.forcequeue(nil,
     procedure
     begin
+      StartJoystick;
       AfficheEcran(TEcrans.Accueil);
     end);
 end;
