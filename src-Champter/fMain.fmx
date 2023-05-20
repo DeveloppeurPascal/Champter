@@ -1,0 +1,253 @@
+inherited frmMain: TfrmMain
+  Caption = '_AncetreFicheTraduite1'
+  ClientHeight = 604
+  ClientWidth = 949
+  Fill.Color = claBlack
+  Fill.Kind = Solid
+  FullScreen = True
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
+  OnResize = FormResize
+  DesignerMasterStyle = 0
+  inline zoneDessinNiveau1: TzoneDessinNiveau
+    Align = Center
+    HitTest = False
+    Size.Width = 824.000000000000000000
+    Size.Height = 449.000000000000000000
+    Size.PlatformDefault = False
+    inherited BoucleDeJeu: TTimer
+      Left = 736
+      Top = 176
+    end
+    inherited GridPanelLayout1: TGridPanelLayout
+      ControlCollection = <
+        item
+          Column = 0
+          Control = zoneDessinNiveau1.txtScore
+          Row = 0
+        end
+        item
+          Column = 1
+          Control = zoneDessinNiveau1.txtNbVies
+          Row = 0
+        end
+        item
+          Column = 2
+          Control = zoneDessinNiveau1.txtNbBombes
+          Row = 0
+        end
+        item
+          Column = 3
+          Control = zoneDessinNiveau1.txtChrono
+          Row = 0
+        end>
+      inherited txtScore: TText
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited txtNbVies: TText
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited txtNbBombes: TText
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited txtChrono: TText
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      inherited txtLevel: TText
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+    end
+  end
+  object Button1: TButton
+    Align = Top
+    Size.Width = 949.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Button1'
+    OnClick = Button1Click
+  end
+  object ZoneMenuAccueil: TLayout
+    Align = Center
+    Size.Width = 241.000000000000000000
+    Size.Height = 421.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object btnMenuOptions: TRectangle
+      Align = Bottom
+      Fill.Color = claLightgray
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 246.000000000000000000
+      Size.Width = 231.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGray
+      XRadius = 10.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnMenuOptionsClick
+      object txtMenuOptions: TText
+        Align = Client
+        HitTest = False
+        Size.Width = 231.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'xxx'
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        object ShadowEffect3: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+    end
+    object btnMenuCredits: TRectangle
+      Align = Bottom
+      Fill.Color = claLightgray
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 306.000000000000000000
+      Size.Width = 231.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGray
+      XRadius = 10.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnMenuCreditsClick
+      object txtMenuCredits: TText
+        Align = Client
+        HitTest = False
+        Size.Width = 231.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'xxx'
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        object ShadowEffect4: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+    end
+    object btnMenuQuitter: TRectangle
+      Align = Bottom
+      Fill.Color = claLightgray
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 366.000000000000000000
+      Size.Width = 231.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGray
+      XRadius = 10.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnMenuQuitterClick
+      object txtMenuQuitter: TText
+        Align = Client
+        HitTest = False
+        Size.Width = 231.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'xxx'
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        object ShadowEffect5: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+    end
+    object btnMenuScores: TRectangle
+      Align = Bottom
+      Fill.Color = claLightgray
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 186.000000000000000000
+      Size.Width = 231.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGray
+      XRadius = 10.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnMenuScoresClick
+      object txtMenuScores: TText
+        Align = Client
+        HitTest = False
+        Size.Width = 231.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'xxx'
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        object ShadowEffect2: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+    end
+    object btnMenuJouer: TRectangle
+      Align = Bottom
+      Fill.Color = claLightgray
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Position.X = 5.000000000000000000
+      Position.Y = 126.000000000000000000
+      Size.Width = 231.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = claGray
+      XRadius = 10.000000000000000000
+      YRadius = 20.000000000000000000
+      OnClick = btnMenuJouerClick
+      object txtMenuJouer: TText
+        Align = Client
+        HitTest = False
+        Size.Width = 231.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'xxx'
+        TextSettings.Font.Size = 30.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        object ShadowEffect1: TShadowEffect
+          Distance = 3.000000000000000000
+          Direction = 45.000000000000000000
+          Softness = 0.300000011920929000
+          Opacity = 0.600000023841857900
+          ShadowColor = claBlack
+        end
+      end
+    end
+  end
+end

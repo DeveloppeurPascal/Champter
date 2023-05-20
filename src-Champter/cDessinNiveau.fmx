@@ -1,0 +1,154 @@
+inherited zoneDessinNiveau: TzoneDessinNiveau
+  HitTest = False
+  Size.Width = 824.000000000000000000
+  Size.Height = 449.000000000000000000
+  object background: TRectangle
+    Align = Contents
+    Fill.Color = claBlack
+    HitTest = False
+    Size.Width = 824.000000000000000000
+    Size.Height = 449.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgray
+    Stroke.Thickness = 3.000000000000000000
+  end
+  object zoneDAffichage: TScaledLayout
+    Align = Contents
+    OriginalWidth = 818.000000000000000000
+    OriginalHeight = 443.000000000000000000
+    Margins.Left = 3.000000000000000000
+    Margins.Top = 3.000000000000000000
+    Margins.Right = 3.000000000000000000
+    Margins.Bottom = 3.000000000000000000
+    Size.Width = 818.000000000000000000
+    Size.Height = 443.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BoucleDeJeu: TTimer
+    Enabled = False
+    Interval = 17
+    OnTimer = BoucleDeJeuTimer
+    Left = 400
+    Top = 208
+  end
+  object GridPanelLayout1: TGridPanelLayout
+    Align = Bottom
+    HitTest = False
+    Position.Y = 399.000000000000000000
+    Size.Width = 824.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ColumnCollection = <
+      item
+        Value = 20.000000000000000000
+      end
+      item
+        Value = 20.000000000000000000
+      end
+      item
+        Value = 20.000000000000000000
+      end
+      item
+        Value = 20.000000000000000000
+      end
+      item
+        Value = 20.000000000000000000
+      end>
+    ControlCollection = <
+      item
+        Column = 0
+        Control = txtScore
+        Row = 0
+      end
+      item
+        Column = 1
+        Control = txtNbVies
+        Row = 0
+      end
+      item
+        Column = 2
+        Control = txtNbBombes
+        Row = 0
+      end
+      item
+        Column = 3
+        Control = txtLevel
+        Row = 0
+      end
+      item
+        Column = 4
+        Control = txtChrono
+        Row = 0
+      end>
+    RowCollection = <
+      item
+        Value = 100.000000000000000000
+      end>
+    object txtScore: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 164.800003051757800000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'xxx'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMoccasin
+      TextSettings.WordWrap = False
+    end
+    object txtNbVies: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 164.800003051757800000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'xxx'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMoccasin
+      TextSettings.WordWrap = False
+    end
+    object txtNbBombes: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 164.800018310546900000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'xxx'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMoccasin
+      TextSettings.WordWrap = False
+    end
+    object txtLevel: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 164.800048828125000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'xxx'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMoccasin
+      TextSettings.WordWrap = False
+    end
+    object txtChrono: TText
+      Align = Client
+      HitTest = False
+      Size.Width = 164.800048828125000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'xxx'
+      TextSettings.Font.Size = 20.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claMoccasin
+      TextSettings.WordWrap = False
+    end
+    object GlowEffect1: TGlowEffect
+      Softness = 0.400000005960464400
+      GlowColor = claGold
+      Opacity = 0.899999976158142100
+    end
+  end
+end

@@ -1,0 +1,4 @@
+inherited _AncetreFicheTraduite1: T_AncetreFicheTraduite1
+  Caption = '_AncetreFicheTraduite1'
+  DesignerMasterStyle = 0
+end
