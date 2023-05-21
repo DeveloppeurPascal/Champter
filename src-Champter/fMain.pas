@@ -230,17 +230,13 @@ begin
     inc(numgroupe);
     case numgroupe of
       1:
-        GroupeDeJeu.LoadFromFile
-          ('C:\Users\olfso\Documents\Embarcadero\Studio\Projets\GAMECPTR\COPTER01.DAT');
+        GroupeDeJeu.LoadFromFile(getDataDiskPath('COPTER01.DAT'));
       2:
-        GroupeDeJeu.LoadFromFile
-          ('C:\Users\olfso\Documents\Embarcadero\Studio\Projets\GAMECPTR\COPTER02.DAT');
+        GroupeDeJeu.LoadFromFile(getDataDiskPath('COPTER02.DAT'));
       3:
-        GroupeDeJeu.LoadFromFile
-          ('C:\Users\olfso\Documents\Embarcadero\Studio\Projets\GAMECPTR\COPTER03.DAT');
+        GroupeDeJeu.LoadFromFile(getDataDiskPath('COPTER03.DAT'));
     else
-      GroupeDeJeu.LoadFromFile
-        ('C:\Users\olfso\Documents\Embarcadero\Studio\Projets\GAMECPTR\COPTER00.DAT');
+      GroupeDeJeu.LoadFromFile(getDataDiskPath('COPTER00.DAT'));
       numgroupe := 0;
       ShowMessage('fini');
       exit;
