@@ -138,7 +138,7 @@ begin
       end;
     TEcrans.PartiePerdue:
       begin
-      PlaySound(TGameSounds.GameOver);
+        PlaySound(TGameSounds.GameOver);
         // TODO : à compléter !!! non compatibles mobiles !!!
         zoneDessinNiveau1.AfficheNiveau(GroupeDePresentation.ListeDeNiveaux[3]);
         if (score > 1) then
@@ -151,7 +151,7 @@ begin
     TEcrans.FinDePartie:
       begin
         // TODO : à compléter !!! non compatibles mobiles !!!
-              PlaySound(TGameSounds.WinGame);
+        PlaySound(TGameSounds.WinGame);
         zoneDessinNiveau1.AfficheNiveau(GroupeDePresentation.ListeDeNiveaux[3]);
         ShowMessage('Bravo, vous avez fini le jeu avec un score de ' +
           score.ToString + ' points.');
@@ -301,7 +301,20 @@ begin
       AfficheEcran(TEcrans.Accueil);
     Key := 0;
     KeyChar := #0;
-  end;
+  end
+  else if (Key = vkReturn) then
+    case EcranActuel of
+      TEcrans.Accueil:
+        btnMenuJouerClick(Sender);
+      TEcrans.Jeu:
+        ;
+      TEcrans.Scores, TEcrans.Credits, TEcrans.Options, TEcrans.PartiePerdue,
+        TEcrans.FinDePartie:
+        // TODO : simuler click sur bouton RETOUR ou équivalent par défaut
+        ;
+    else
+      // TODO : gérer bouton RETURN sur écrans non pris en charge
+    end;
   if assigned(SpriteDuJoueur) and partieencours then
   begin
     if Key = vkUp then
