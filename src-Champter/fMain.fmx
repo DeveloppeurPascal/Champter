@@ -39,6 +39,11 @@ inherited frmMain: TfrmMain
         end
         item
           Column = 3
+          Control = zoneDessinNiveau1.txtLevel
+          Row = 0
+        end
+        item
+          Column = 0
           Control = zoneDessinNiveau1.txtChrono
           Row = 0
         end>
