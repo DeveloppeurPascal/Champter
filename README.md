@@ -4,6 +4,10 @@
 
 Arcade game developed under Delphi in a cross-platform project Firemonkey.
 
+This game was developed live on Twitch. The coding sessions are replayed on [the Champter section](https://serialstreameur.fr/jv-champter.php) of [Serial Streamer](https://serialstreameur.fr/).
+
+To learn more about this game and download it, visit [its site](https://champter.gamolf.fr).
+
 This code repository contains a project developed in Object Pascal language under Delphi. You don't know what Delphi is and where to download it ? You'll learn more [on this web site](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Install

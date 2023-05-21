@@ -4,6 +4,10 @@
 
 Jeu d'arcade développé sous Delphi dans un projet multiplateforme Firemonkey.
 
+Ce jeu a été développé en live sur Twitch. Les sessions de codage sont rediffusées sur [la rubrique Champter](https://serialstreameur.fr/jv-champter.php) du site [Serial Streameur](https://serialstreameur.fr/).
+
+Pour en savoir plus sur ce jeu et le télécharger, visitez [son site](https://champter.gamolf.fr).
+
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
 
 ## Installation
