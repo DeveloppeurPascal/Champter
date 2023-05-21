@@ -679,6 +679,1254 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="$(BDS)\bin\delphi_PROJECTICNS.icns" Configuration="Release" Class="ProjectOSXResource"/>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph1.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>ActionMorph1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ActionMorph3.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>ActionMorph3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\ExplosionPowerUp2.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>ExplosionPowerUp2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\IslandLevelComplete1.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>IslandLevelComplete1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\JugUnplugButton1.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>JugUnplugButton1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MachineryUpgrade1.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MachineryUpgrade1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MagicalGlassBurst2.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MagicalGlassBurst2.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryHornLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MilitaryHornLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\MilitaryLevelComplete3.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>MilitaryLevelComplete3.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\UnderwaterPowerUp1.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>UnderwaterPowerUp1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\EpicStockMedia_com\MobileGame16Bits\WoodlandLoss1.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>WoodlandLoss1.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Debug" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="Android64">
+                        <RemoteDir>.\assets\internal\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="Linux64">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSX64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="OSXARM64">
+                        <RemoteDir>Contents\MacOS\</RemoteDir>
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win32">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="Win64">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="..\assets\GamDevMarket_com-HumbleBundle-20220901\Children_Game_Music\Song_Exploration_02_Loop.wav" Configuration="Release" Class="File">
+                    <Platform Name="iOSDevice64">
+                        <RemoteName>Song_Exploration_02_Loop.wav</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="..\design\icones\champter-150x150.png" Configuration="Debug" Class="UWP_DelphiLogo150">
                     <Platform Name="Win32">
                         <RemoteDir>Assets\</RemoteDir>
@@ -921,6 +2169,12 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="Win32\Debug\Champter.exe" Configuration="Debug" Class="ProjectOutput"/>
+                <DeployFile LocalName="Win32\Debug\Champter.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>Champter.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="Win32\Release\AppxManifest.xml" Configuration="Release" Class="ProjectUWPManifest"/>
                 <DeployFile LocalName="Win32\Release\Champter.exe" Configuration="Release" Class="ProjectOutput"/>
                 <DeployFile LocalName="Win64\Debug\Champter.exe" Configuration="Debug" Class="ProjectOutput"/>
