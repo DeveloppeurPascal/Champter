@@ -2,11 +2,68 @@
 
 ## Sons
 
-* musique d'ambiance
-* bruitage explosion (peut-être plusieurs en fonction de l'explosion)
-* bruitage ramassage de champignons
-* bruitage fin de partie (plus de vie - game over)
-* bruitage tableau fini (tous les champignons ont été ramassés)
+* bruitage ramassage de champignons => pas forcément utile (même plutôt chiant à l'écoute)
+
+### Game Dev Market
+
+https://www.gamedevmarket.net
+
+#### Children Game Music
+
+https://www.gamedevmarket.net/asset/children-game-music
+
+* Song_Exploration_02_Loop.wav
+
+musique d'ambiance
+
+### Epic Stock Media 
+https://epicstockmedia.com
+
+#### Mobile games 16 bits
+
+* Action Morph 1.wav
+
+perte d'une vie dans le piège invisible
+
+* Action Morph 3.wav
+
+perte d'une vie par destruction au contact d'un laser
+
+* Explosion Power Up 2.wav
+
+perte d'une vie par destruction au contact d'un vaisseau ennemi
+
+* Island Level Complete 1.wav
+
+fin d'un niveau, passage au suivant
+
+* Jug Unplug Button 1.wav
+
+click sur un bouton de l'interface
+
+* Machinery Upgrade 1.wav
+
+affichage du piège invisible
+
+* Military Horn Loss 1.wav
+
+perte d'une vie au contact des fleurs empoisonnées
+
+* Military Level Complete 3.wav
+
+fin de partie : victoire, tous les niveaux terminés
+
+* Magical Glass Burst 2.wav
+
+affichage d'un laser
+
+* Underwater Power Up 1.wav
+
+perte d'une vie au contact des araignées
+
+* Woodland Loss 1.wav
+
+fin de partie : perte de toutes les vies
 
 ## Graphismes
 
