@@ -11,7 +11,7 @@ var
   /// </summary>
   SpriteDuJoueur: TSpriteJoueur;
   /// <summary>
-  /// Lien vers l zone d'affichage du niveau en cours
+  /// Lien vers la zone d'affichage du niveau en cours
   /// </summary>
   ZoneAffichageNiveauDuJeu: TzoneDessinNiveau;
   /// <summary>
