@@ -1,8 +1,6 @@
 # Champter
 
-## Sons
-
-* bruitage ramassage de champignons => pas forcément utile (même plutôt chiant à l'écoute)
+## Musiques du jeu
 
 ### Game Dev Market
 
@@ -16,54 +14,67 @@ https://www.gamedevmarket.net/asset/children-game-music
 
 musique d'ambiance
 
+## Sons du jeu
+
 ### Epic Stock Media 
 https://epicstockmedia.com
 
 #### Mobile games 16 bits
 
-* Action Morph 1.wav
+* TGameSounds.KilledByTrap
 
 perte d'une vie dans le piège invisible
+Fichier : ActionMorph1.wav
 
-* Action Morph 3.wav
+* TGameSounds.KilledByLaser
 
 perte d'une vie par destruction au contact d'un laser
+Fichier : ActionMorph3.wav
 
-* Explosion Power Up 2.wav
+* TGameSounds.KilledBySpaceship
 
 perte d'une vie par destruction au contact d'un vaisseau ennemi
+Fichier : ExplosionPowerUp2.wav
 
-* Island Level Complete 1.wav
+* TGameSounds.WinLevel
 
 fin d'un niveau, passage au suivant
+Fichier : IslandLevelComplete1.wav
 
-* Jug Unplug Button 1.wav
+* TGameSounds.UIButtonClick
 
 click sur un bouton de l'interface
+Fichier : JugUnplugButton1.wav
 
-* Machinery Upgrade 1.wav
+* TGameSounds.TrapShow
 
 affichage du piège invisible
+Fichier : MachineryUpgrade1.wav
 
-* Military Horn Loss 1.wav
+* TGameSounds.KilledByFlower
 
 perte d'une vie au contact des fleurs empoisonnées
+Fichier : MilitaryHornLoss1.wav
 
-* Military Level Complete 3.wav
+* TGameSounds.WinGame
 
 fin de partie : victoire, tous les niveaux terminés
+Fichier : MilitaryLevelComplete3.wav
 
-* Magical Glass Burst 2.wav
+* TGameSounds.LaserShow
 
 affichage d'un laser
+Fichier : MagicalGlassBurst2.wav
 
-* Underwater Power Up 1.wav
+* TGameSounds.KilledBySpider
 
 perte d'une vie au contact des araignées
+Fichier : UnderwaterPowerUp1.wav
 
-* Woodland Loss 1.wav
+* TGameSounds.GameOver
 
 fin de partie : perte de toutes les vies
+Fichier : WoodlandLoss1.wav
 
 ## Graphismes
 

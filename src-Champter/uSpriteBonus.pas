@@ -3,7 +3,7 @@ unit uSpriteBonus;
 interface
 
 uses
-  fmx.controls, uSprite;
+  fmx.controls, uSprite, uSoundsAndMusics;
 
 type
 {$SCOPEDENUMS on}
@@ -17,7 +17,7 @@ type
     property bonustype: TBonusType read Fbonustype write Setbonustype;
     class function AjouteBonus(AParent: TControl; AX, AY: single;
       ABonusType: TBonusType): TSpriteBonus;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
   end;
 
 implementation
@@ -52,10 +52,12 @@ begin
   result.obj := r;
 end;
 
-procedure TSpriteBonus.DoExplose;
+procedure TSpriteBonus.DoExplose(SoundToPlay: tgamesounds);
 begin
   if (not assigned(obj)) or (obj.tag < 0) then
     exit;
+
+  playsound(SoundToPlay);
 
   case bonustype of
     TBonusType.Score:

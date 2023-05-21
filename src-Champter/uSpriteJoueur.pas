@@ -3,7 +3,7 @@ unit uSpriteJoueur;
 interface
 
 uses
-  fmx.controls, uSprite;
+  fmx.controls, uSprite, uSoundsAndMusics;
 
 type
   TSpriteJoueur = class(tsprite)
@@ -14,7 +14,7 @@ type
       : TSpriteJoueur;
     procedure DoMouvement; override;
     function HasCollision(AX: single; AY: single): Boolean; override;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
     procedure VaVers(Direction: TSpriteSensDeplacement);
     procedure LanceExplosif;
   end;
@@ -54,7 +54,7 @@ begin
   spritedujoueur := result;
 end;
 
-procedure TSpriteJoueur.DoExplose;
+procedure TSpriteJoueur.DoExplose(SoundToPlay: tgamesounds);
 begin
   if (not assigned(obj)) or (obj.tag < 0) then
     exit;
@@ -64,7 +64,7 @@ begin
   SensDeplacement := TSpriteSensDeplacement.Immobile;
   EnMouvement := TSpriteEnMouvement.non;
   // TODO : ajouter animation explosion
-  // TODO : ajouter son d'explosion
+  PlaySound(SoundToPlay);
 
   // TODO : à traiter après animations de fin de vie
   if (NbVies < 1) then
@@ -154,33 +154,35 @@ begin
     begin
       atoucheuntruc := true;
       if (o.TagObject is tspritearaignee) then
-        self.DoExplose
+        self.DoExplose(tgamesounds.KilledBySpider)
       else if (o.TagObject is tspriteennemi) then
       begin
-        (o.TagObject as tspriteennemi).DoExplose;
-        self.DoExplose;
+        (o.TagObject as tspriteennemi).DoExplose(tgamesounds.KilledBySpaceship);
+        self.DoExplose(tgamesounds.KilledBySpaceship);
       end
       else if (o.TagObject is tspritefleur) then
       begin
-        (o.TagObject as tspritefleur).DoExplose;
-        self.DoExplose;
+        (o.TagObject as tspritefleur).DoExplose(tgamesounds.none);
+        self.DoExplose(tgamesounds.KilledByFlower);
       end
       else if (o.TagObject is tspritepiege) then
       begin
-        (o.TagObject as tspritepiege).DoExplose;
-        self.DoExplose;
+        (o.TagObject as tspritepiege).DoExplose(tgamesounds.none);
+        self.DoExplose(tgamesounds.KilledByTrap);
       end
       else if (o.TagObject is tspritetir) then
-        self.DoExplose
+        self.DoExplose(tgamesounds.KilledByLaser)
       else if (o.TagObject is TSpriteChampignon) then
       begin
         atoucheuntruc := false;
-        (o.TagObject as TSpriteChampignon).DoExplose;
+        // TODO : son "ramasse un champignon"
+        (o.TagObject as TSpriteChampignon).DoExplose(tgamesounds.none);
       end
       else if (o.TagObject is TSpriteBonus) then
       begin
         atoucheuntruc := false;
-        (o.TagObject as TSpriteBonus).DoExplose;
+        // TODO : son "ramassage bonus"
+        (o.TagObject as TSpriteBonus).DoExplose(tgamesounds.none);
       end;
       result := result or atoucheuntruc;
     end;
@@ -197,6 +199,7 @@ begin
     exit;
 
   // TODO : faire animation / affichage bombes (ou feu autour du vaisseau)
+  // TODO : son "explosion bombe"
 
   RectGauche := rectf(x - obj.width / 2, y, x - 1, y + obj.height - 1);
   RectDroite := rectf(x + obj.width, y, x + obj.width + obj.width / 2 - 1,
@@ -213,17 +216,23 @@ begin
       // TODO : permettre d'exploser le fil de l'araignée indépendamment de l'araignée elle-même
       if (o.TagObject is tspritearaignee) and
         (not(o = (o.TagObject as tspritearaignee).FilDeLAraignee)) then
-        (o.TagObject as tspritearaignee).DoExplose
+        (o.TagObject as tspritearaignee).DoExplose(tgamesounds.none)
+        // TODO : son "araignée tuée par bombe"
       else if (o.TagObject is tspriteennemi) then
-        (o.TagObject as tspriteennemi).DoExplose
+        (o.TagObject as tspriteennemi).DoExplose(tgamesounds.KilledBySpaceship)
+        // TODO : son "ennemi détruit par bombe"
       else if (o.TagObject is tspritefleur) then
-        (o.TagObject as tspritefleur).DoExplose
+        (o.TagObject as tspritefleur).DoExplose(tgamesounds.none)
+        // TODO : son "fleur détruite par bombe"
       else if (o.TagObject is TSpriteChampignon) then
-        (o.TagObject as TSpriteChampignon).DoExplose
+        (o.TagObject as TSpriteChampignon).DoExplose(tgamesounds.none)
+        // TODO : son "champignon détruit par bombe"
       else if (o.TagObject is TSpriteBonus) then
-        (o.TagObject as TSpriteBonus).DoExplose
+        (o.TagObject as TSpriteBonus).DoExplose(tgamesounds.none)
+        // TODO : son "bonus détruit par bombe"
       else if (o.TagObject is TSpritemur) then
-        (o.TagObject as TSpritemur).DoExplose;
+        (o.TagObject as TSpritemur).DoExplose(tgamesounds.none);
+      // TODO : son "mur détruit par bombe"
     end;
   end;
 

@@ -45,6 +45,16 @@ type
     procedure btnMenuOptionsClick(Sender: TObject);
     procedure btnMenuQuitterClick(Sender: TObject);
     procedure btnMenuScoresClick(Sender: TObject);
+    procedure btnMenuScoresMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
+    procedure btnMenuQuitterMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
+    procedure btnMenuCreditsMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
+    procedure btnMenuJouerMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
+    procedure btnMenuOptionsMouseDown(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Single);
   private
     { Déclarations privées }
     GroupeDePresentation, GroupeDeJeu: TGroupeDeNiveaux;
@@ -67,7 +77,8 @@ implementation
 {$R *.fmx}
 
 uses
-  System.ioutils, uDMTraductions, uPartieEnCours, uSprite, JoystickManager;
+  System.ioutils, uDMTraductions, uPartieEnCours, uSprite, JoystickManager,
+  uSoundsAndMusics;
 
 { TfrmMain }
 
@@ -97,6 +108,7 @@ begin
         if (NiveauDuJeu + 1 < GroupeDeJeu.ListeDeNiveaux.Count) then
         begin
           // Passage au niveau suivant dans cette extension
+          PlaySound(TGameSounds.WinLevel);
           NouveauNiveau(NiveauDuJeu + 1);
           zoneDessinNiveau1.AfficheNiveau
             (GroupeDeJeu.ListeDeNiveaux[NiveauDuJeu]);
@@ -126,6 +138,7 @@ begin
       end;
     TEcrans.PartiePerdue:
       begin
+      PlaySound(TGameSounds.GameOver);
         // TODO : à compléter !!! non compatibles mobiles !!!
         zoneDessinNiveau1.AfficheNiveau(GroupeDePresentation.ListeDeNiveaux[3]);
         if (score > 1) then
@@ -138,6 +151,7 @@ begin
     TEcrans.FinDePartie:
       begin
         // TODO : à compléter !!! non compatibles mobiles !!!
+              PlaySound(TGameSounds.WinGame);
         zoneDessinNiveau1.AfficheNiveau(GroupeDePresentation.ListeDeNiveaux[3]);
         ShowMessage('Bravo, vous avez fini le jeu avec un score de ' +
           score.ToString + ' points.');
@@ -155,9 +169,21 @@ begin
   AfficheEcran(TEcrans.Credits);
 end;
 
+procedure TfrmMain.btnMenuCreditsMouseDown(Sender: TObject;
+  Button: TMouseButton; Shift: TShiftState; X, Y: Single);
+begin
+  PlaySound(TGameSounds.UIButtonClick);
+end;
+
 procedure TfrmMain.btnMenuJouerClick(Sender: TObject);
 begin
   AfficheEcran(TEcrans.Jeu);
+end;
+
+procedure TfrmMain.btnMenuJouerMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Single);
+begin
+  PlaySound(TGameSounds.UIButtonClick);
 end;
 
 procedure TfrmMain.btnMenuOptionsClick(Sender: TObject);
@@ -165,14 +191,32 @@ begin
   AfficheEcran(TEcrans.Options);
 end;
 
+procedure TfrmMain.btnMenuOptionsMouseDown(Sender: TObject;
+  Button: TMouseButton; Shift: TShiftState; X, Y: Single);
+begin
+  PlaySound(TGameSounds.UIButtonClick);
+end;
+
 procedure TfrmMain.btnMenuQuitterClick(Sender: TObject);
 begin
   AfficheEcran(TEcrans.Quitter);
 end;
 
+procedure TfrmMain.btnMenuQuitterMouseDown(Sender: TObject;
+  Button: TMouseButton; Shift: TShiftState; X, Y: Single);
+begin
+  PlaySound(TGameSounds.UIButtonClick);
+end;
+
 procedure TfrmMain.btnMenuScoresClick(Sender: TObject);
 begin
   AfficheEcran(TEcrans.Scores);
+end;
+
+procedure TfrmMain.btnMenuScoresMouseDown(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Single);
+begin
+  PlaySound(TGameSounds.UIButtonClick);
 end;
 
 procedure TfrmMain.Button1Click(Sender: TObject);
@@ -225,6 +269,8 @@ begin
     begin
       StartJoystick;
       AfficheEcran(TEcrans.Accueil);
+      PlayMusic(TGameMusics.Song_Exploration_02_Loop);
+      // TODO : jouer la musique configurée (si plusieurs choix dans les réglages) plutôt que la musique par défaut
     end);
 end;
 

@@ -3,13 +3,13 @@ unit uSpriteFleur;
 interface
 
 uses
-  fmx.controls, uSprite;
+  fmx.controls, uSprite, uSoundsAndMusics;
 
 type
   TSpriteFleur = class(tsprite)
   public
     class function AjouteFleur(AParent: TControl; AX, AY: single): TSpriteFleur;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
   end;
 
 implementation
@@ -41,10 +41,12 @@ begin
   result.obj := r;
 end;
 
-procedure TSpriteFleur.DoExplose;
+procedure TSpriteFleur.DoExplose(SoundToPlay: tgamesounds);
 begin
   if (not assigned(obj)) or (obj.tag < 0) then
     exit;
+
+  playsound(SoundToPlay);
 
   ZoneAffichageNiveauDuJeu.setScore(score + cScoreFleurDetruite);
 

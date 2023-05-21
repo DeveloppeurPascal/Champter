@@ -3,7 +3,7 @@ unit uSpriteAraignee;
 interface
 
 uses
-  fmx.controls, fmx.objects, uSprite;
+  fmx.controls, fmx.objects, uSprite, uSoundsAndMusics;
 
 type
   TSpriteAraignee = class(tsprite)
@@ -15,7 +15,7 @@ type
       : TSpriteAraignee;
     procedure DoMouvement; override;
     function HasCollision(AX: single; AY: single): Boolean; override;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
   end;
 
 implementation
@@ -63,14 +63,15 @@ begin
   result.obj.BringToFront;
 end;
 
-procedure TSpriteAraignee.DoExplose;
+procedure TSpriteAraignee.DoExplose(SoundToPlay: tgamesounds);
 begin
   // TODO : gérer le fait que l'araignée a été tuée par un tir de laser ou une bombe du joueur
   SensDeplacement := TSpriteSensDeplacement.Immobile;
   EnMouvement := TSpriteEnMouvement.non;
   (obj as trectangle).fill.bitmap.bitmap.Assign
     (dmimages.imgsprites.bitmap((obj as trectangle).size.size, 27));
-  // TODO : ajouter un bruitage "araignée cuite ou tuée par missile / bombe"
+
+  playsound(SoundToPlay);
 
   // TODO : ajouter une tempo avant suppression de l'image de l'araignée
 
@@ -146,9 +147,9 @@ begin
     begin
       result := true;
       if (o.TagObject is tspritejoueur) then
-        (o.TagObject as tspritejoueur).DoExplose
+        (o.TagObject as tspritejoueur).DoExplose(tgamesounds.KilledBySpider)
       else if (o.TagObject is tspriteennemi) then
-        (o.TagObject as tspriteennemi).DoExplose;
+        (o.TagObject as tspriteennemi).DoExplose(tgamesounds.KilledBySpider);
     end;
   end;
 end;

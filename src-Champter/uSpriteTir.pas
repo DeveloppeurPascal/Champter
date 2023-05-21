@@ -3,7 +3,7 @@ unit uSpriteTir;
 interface
 
 uses
-  fmx.controls, uSprite;
+  fmx.controls, uSprite, uSoundsAndMusics;
 
 type
   TSpriteTir = class(tsprite)
@@ -103,12 +103,13 @@ begin
     begin
       result := true;
       if (o.TagObject is tspritejoueur) then
-        (o.TagObject as tspritejoueur).DoExplose
+        (o.TagObject as tspritejoueur).DoExplose(tgamesounds.KilledByLaser)
       else if (o.TagObject is tspriteennemi) then
-        (o.TagObject as tspriteennemi).DoExplose
+        (o.TagObject as tspriteennemi).DoExplose(tgamesounds.KilledByLaser)
       else if (o.TagObject is tspritearaignee) and
         (not(o = (o.TagObject as tspritearaignee).FilDeLAraignee)) then
-        (o.TagObject as tspritearaignee).DoExplose;
+        (o.TagObject as tspritearaignee).DoExplose(tgamesounds.KilledByLaser);
+      // TODO : son "araignée tuée par laser"
     end;
   end;
 end;
@@ -135,7 +136,7 @@ begin
       obj.bringtofront;
       if HasCollision(x, y) then
       begin
-        // TODO : déclenche un bruit
+        playsound(tgamesounds.LaserShow);
         // TODO : déclenche une animation sur la couleur du tir
       end;
     end

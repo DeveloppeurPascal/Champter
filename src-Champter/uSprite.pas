@@ -3,7 +3,7 @@ unit uSprite;
 interface
 
 uses
-  fmx.controls, System.Generics.Collections;
+  fmx.controls, System.Generics.Collections, uSoundsAndMusics;
 
 type
 {$SCOPEDENUMS on}
@@ -36,7 +36,7 @@ type
     property EnMouvement: TSpriteEnMouvement read FEnMouvement
       write SetEnMouvement;
     procedure DoMouvement; virtual; abstract;
-    procedure DoExplose; virtual; abstract;
+    procedure DoExplose(SoundToPlay: tgamesounds); virtual; abstract;
     function HasCollision(AX, AY: single): boolean; virtual; abstract;
     constructor Create; virtual;
   end;

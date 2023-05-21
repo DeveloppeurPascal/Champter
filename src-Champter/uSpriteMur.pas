@@ -3,13 +3,13 @@ unit uSpriteMur;
 interface
 
 uses
-  fmx.controls, uSprite;
+  fmx.controls, uSprite, uSoundsAndMusics;
 
 type
   TSpriteMur = class(tsprite)
   public
     class function AjouteMur(AParent: TControl; AX, AY: single): TSpriteMur;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
   end;
 
 implementation
@@ -43,14 +43,15 @@ begin
   result.obj := r;
 end;
 
-procedure TSpriteMur.DoExplose;
+procedure TSpriteMur.DoExplose(SoundToPlay: tgamesounds);
 begin
   if (not assigned(obj)) or (obj.tag < 0) then
     exit;
 
-  ZoneAffichageNiveauDuJeu.setScore(score + cscoreMurDetruit);
+  // TODO : envisager animation de suppression du mur
+  playsound(SoundToPlay);
 
-  // TODO : animation explosion
+  ZoneAffichageNiveauDuJeu.setScore(score + cscoreMurDetruit);
 
   obj.tag := -1;
   tthread.forcequeue(nil,

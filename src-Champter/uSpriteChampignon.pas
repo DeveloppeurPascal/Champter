@@ -3,14 +3,14 @@ unit uSpriteChampignon;
 interface
 
 uses
-  fmx.controls, uSprite;
+  fmx.controls, uSprite, uSoundsAndMusics;
 
 type
   TSpriteChampignon = class(tsprite)
   public
     class function AjouteChampignon(AParent: TControl; AX, AY: single)
       : TSpriteChampignon;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
   end;
 
 implementation
@@ -45,10 +45,13 @@ begin
   inc(NbChampignonsARamasser);
 end;
 
-procedure TSpriteChampignon.DoExplose;
+procedure TSpriteChampignon.DoExplose(SoundToPlay: tgamesounds);
 begin
   if (not assigned(obj)) or (obj.tag < 0) then
     exit;
+
+  // TODO : voir si animation de la récolte du champignon utile
+  playsound(SoundToPlay);
 
   // change le score du joueur
   ZoneAffichageNiveauDuJeu.setScore(score + cScoreChampignonRamasse);
@@ -56,7 +59,7 @@ begin
   // diminue le nombre de champignons à ramasser dans cet écran
   dec(NbChampignonsARamasser);
 
-  // retire le chapignon de l'écran
+  // retire le champignon de l'écran
   obj.tag := -1;
   tthread.forcequeue(nil,
     procedure

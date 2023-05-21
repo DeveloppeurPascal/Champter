@@ -3,7 +3,7 @@ unit uSpritePiege;
 interface
 
 uses
-  fmx.controls, fmx.ani, uSprite;
+  fmx.controls, fmx.ani, uSprite, uSoundsAndMusics;
 
 type
   TSpritePiege = class(tsprite)
@@ -13,7 +13,7 @@ type
   public
     class function AjoutePiege(AParent: TControl; AX, AY: single): TSpritePiege;
     procedure DoMouvement; override;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
   end;
 
 implementation
@@ -55,9 +55,10 @@ begin
   result.Visibilite.OnFinish := result.VisibiliteFinie;
 end;
 
-procedure TSpritePiege.DoExplose;
+procedure TSpritePiege.DoExplose(SoundToPlay: tgamesounds);
 begin
   // TODO : animation de déclenchement du piège
+  playsound(SoundToPlay);
 end;
 
 procedure TSpritePiege.DoMouvement;
@@ -66,6 +67,7 @@ begin
   begin
     Visibilite.StopValue := (random(9) + 2) / 10;
     Visibilite.enabled := true;
+    playsound(tgamesounds.TrapShow);
   end;
 end;
 

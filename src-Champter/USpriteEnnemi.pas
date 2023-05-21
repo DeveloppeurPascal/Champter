@@ -3,7 +3,7 @@ unit USpriteEnnemi;
 interface
 
 uses
-  fmx.controls, uSprite;
+  fmx.controls, uSprite, uSoundsAndMusics;
 
 type
   TSpriteEnnemi = class(tsprite)
@@ -12,7 +12,7 @@ type
       : TSpriteEnnemi;
     procedure DoMouvement; override;
     function HasCollision(AX: single; AY: single): Boolean; override;
-    procedure DoExplose; override;
+    procedure DoExplose(SoundToPlay: tgamesounds); override;
     procedure ChangementDeDirection;
   end;
 
@@ -69,7 +69,7 @@ begin
     Vitesse := random(5) + 1;
 end;
 
-procedure TSpriteEnnemi.DoExplose;
+procedure TSpriteEnnemi.DoExplose(SoundToPlay: tgamesounds);
 begin
   if (not assigned(obj)) or (obj.tag < 0) then
     exit;
@@ -77,7 +77,8 @@ begin
   SensDeplacement := TSpriteSensDeplacement.Immobile;
   EnMouvement := TSpriteEnMouvement.non;
   // TODO : ajouter animation explosion
-  // TODO : ajouter son d'explosion
+  playsound(SoundToPlay);
+
   ZoneAffichageNiveauDuJeu.setScore(score + cScoreEnnemiDetruit);
   // TODO : ajouter un bonus à l'emplacement du vaisseau ennemi
 
@@ -160,8 +161,8 @@ begin
       result := true;
       if (o.TagObject is tspritepiege) then
       begin
-        (o.TagObject as tspritepiege).DoExplose;
-        self.DoExplose;
+        (o.TagObject as tspritepiege).DoExplose(tgamesounds.none);
+        self.DoExplose(tgamesounds.KilledByTrap);
       end;
     end;
   end;

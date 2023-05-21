@@ -51,10 +51,10 @@ inherited frmMain: TfrmMain
       inherited txtNbBombes: TText
         TextSettings.Font.StyleExt = {00070000000000000004000000}
       end
-      inherited txtChrono: TText
+      inherited txtLevel: TText
         TextSettings.Font.StyleExt = {00070000000000000004000000}
       end
-      inherited txtLevel: TText
+      inherited txtChrono: TText
         TextSettings.Font.StyleExt = {00070000000000000004000000}
       end
     end
@@ -90,6 +90,7 @@ inherited frmMain: TfrmMain
       XRadius = 10.000000000000000000
       YRadius = 20.000000000000000000
       OnClick = btnMenuOptionsClick
+      OnMouseDown = btnMenuOptionsMouseDown
       object txtMenuOptions: TText
         Align = Client
         HitTest = False
@@ -125,6 +126,7 @@ inherited frmMain: TfrmMain
       XRadius = 10.000000000000000000
       YRadius = 20.000000000000000000
       OnClick = btnMenuCreditsClick
+      OnMouseDown = btnMenuCreditsMouseDown
       object txtMenuCredits: TText
         Align = Client
         HitTest = False
@@ -160,6 +162,7 @@ inherited frmMain: TfrmMain
       XRadius = 10.000000000000000000
       YRadius = 20.000000000000000000
       OnClick = btnMenuQuitterClick
+      OnMouseDown = btnMenuQuitterMouseDown
       object txtMenuQuitter: TText
         Align = Client
         HitTest = False
@@ -195,6 +198,7 @@ inherited frmMain: TfrmMain
       XRadius = 10.000000000000000000
       YRadius = 20.000000000000000000
       OnClick = btnMenuScoresClick
+      OnMouseDown = btnMenuScoresMouseDown
       object txtMenuScores: TText
         Align = Client
         HitTest = False
@@ -230,6 +234,7 @@ inherited frmMain: TfrmMain
       XRadius = 10.000000000000000000
       YRadius = 20.000000000000000000
       OnClick = btnMenuJouerClick
+      OnMouseDown = btnMenuJouerMouseDown
       object txtMenuJouer: TText
         Align = Client
         HitTest = False
