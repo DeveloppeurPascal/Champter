@@ -6,6 +6,8 @@ Jeu d'arcade développé sous Delphi dans un projet multiplateforme Firemonkey.
 
 Ce jeu a été développé en live sur Twitch. Les sessions de codage sont rediffusées sur [la rubrique Champter](https://serialstreameur.fr/jv-champter.php) du site [Serial Streameur](https://serialstreameur.fr/).
 
+Le fonctionnement du jeu est inspiré de [Fox](http://jeuxvideos8090.free.fr/index.php?Id_Soft=132), un jeu vidéo de 1985, mais les niveaux du jeu proviennent de [Copter](https://github.com/DeveloppeurPascal/Game-Copter-MSDOS-TurboPascal) que j'avais développé en Turbo Pascal en 1992.
+
 Pour en savoir plus sur ce jeu et le télécharger, visitez [son site](https://champter.gamolf.fr).
 
 Ce dépôt de code contient un projet développé en langage Pascal Objet sous Delphi. Vous ne savez pas ce qu'est Dephi ni où le télécharger ? Vous en saurez plus [sur ce site web](https://delphi-resources.developpeur-pascal.fr/).
