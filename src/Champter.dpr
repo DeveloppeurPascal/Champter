@@ -25,8 +25,8 @@
   https://github.com/DeveloppeurPascal/Champter
 
   ***************************************************************************
-  File last update : 2025-05-25T19:05:46.000+02:00
-  Signature : 1e8a4323f17bbfdf9774ac172f4f37f5f807e770
+  File last update : 2025-05-25T21:00:32.000+02:00
+  Signature : fe4f78dfd1c3c7983faa9eb2b354771d4c68320e
   ***************************************************************************
 *)
 
@@ -76,7 +76,8 @@ uses
   uSVGBitmapManager_InputPrompts in 'uSVGBitmapManager_InputPrompts.pas',
   uDMHelpBarManager in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\uDMHelpBarManager.pas' {HelpBarManager: TDataModule},
   _ButtonsAncestor in '..\lib-externes\Gamolf-FMX-Game-Starter-Kit\src\_ButtonsAncestor.pas' {__ButtonAncestor: TFrame},
-  uSceneBackground in 'uSceneBackground.pas' {SceneBackground: TFrame};
+  uSceneBackground in 'uSceneBackground.pas' {SceneBackground: TFrame},
+  USVGKenney in '..\assets\Kenney.nl\USVGKenney.pas';
 
 {$R *.res}
 
