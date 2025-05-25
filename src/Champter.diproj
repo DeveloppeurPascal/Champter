@@ -21,7 +21,6 @@
   <TargetPlatform>0</TargetPlatform>
   <Sources>
     <Source>..\src-Champter\Champter.dpr</Source>
-    <Source>..\src-ChampterLevelDesigner\ChampterEditor.dpr</Source>
   </Sources>
   <Outputs>
     <Output Type="HTML">
