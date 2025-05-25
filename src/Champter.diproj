@@ -20,7 +20,8 @@
   <CompilerVersion>27</CompilerVersion>
   <TargetPlatform>0</TargetPlatform>
   <Sources>
-    <Source>..\src-Champter\Champter.dpr</Source>
+    <Source>.\Champter.dpr</Source>
+    <Source>..\src-Champter\Champter_2021.dpr</Source>
   </Sources>
   <Outputs>
     <Output Type="HTML">
